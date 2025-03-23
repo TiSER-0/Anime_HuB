@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: #ff4500;
+    padding: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.anime-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.anime {
+    background: #222;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.anime img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff4500;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}

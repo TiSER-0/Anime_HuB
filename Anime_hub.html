@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Anime Hub</h1>
+        <input type="text" id="search" placeholder="Search Anime..." onkeyup="searchAnime()">
+    </header>
+
+    <div class="anime-container" id="animeList">
+        <div class="anime" data-title="Naruto">
+            <img src="images/naruto.jpg" alt="Naruto">
+            <h3>Naruto</h3>
+            <button onclick="watchAnime('Naruto')">Watch Now</button>
+        </div>
+
+        <div class="anime" data-title="One Piece">
+            <img src="images/onepiece.jpg" alt="One Piece">
+            <h3>One Piece</h3>
+            <button onclick="watchAnime('One Piece')">Watch Now</button>
+        </div>
+
+        <div class="anime" data-title="Attack on Titan">
+            <img src="images/aot.jpg" alt="Attack on Titan">
+            <h3>Attack on Titan</h3>
+            <button onclick="watchAnime('Attack on Titan')">Watch Now</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
